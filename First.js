@@ -1,4 +1,4 @@
-$(function() {
+
     $("#add").on("click", function() {
         var val = $("input").val();
         if(val !== '') {
@@ -11,4 +11,4 @@ $(function() {
             });
         }
     });
-});
+
