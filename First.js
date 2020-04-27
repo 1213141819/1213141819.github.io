@@ -10,5 +10,3 @@ $(".add").on("click", function() {
         });
     }
 });
-
-
