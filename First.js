@@ -10,7 +10,7 @@
 //         });
 //     }
 // });
-   $(".add").on("click", function() {
+   $("button").on("click", function() {
         var val = $(this).parent().children( "input").val();
         if(val !== '') {
             var elem = $("<li></li>").text(val);
